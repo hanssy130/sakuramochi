@@ -12,7 +12,7 @@ import Chip from "@/components/chip";
 export default function Volunteer() {
   return (
     <main>
-      <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black text-balance">
+      <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black">
         <div
           data-aos="fade-up"
           className="relative flex flex-row lg:w-2/3 justify-between"
@@ -28,20 +28,21 @@ export default function Volunteer() {
         </div>
         <div
           data-aos="fade-up"
-          className="border-grey border-2 relative aspect-[18/6] pt-96 rounded-xl overflow-hidden mb-10"
+          className="border-grey border-2 relative aspect-[18/6] pt-72 rounded-xl overflow-hidden mb-10"
         >
           <img
             className="size-full absolute top-0 start-0 object-cover rounded-2xl"
             src="/volunteers wanted.png"
           />
         </div>
-        <div data-aos="fade-up" className="lg:w-2/3">
-          <p className="font-sans font-medium text-lg">
+        <div data-aos="fade-up" className="lg:w-2/3 font-sans font-medium text-lg">
+          <p>
             All volunteers will be expected to arrive early on the day-of to
             help set-up the event, and have a Discord account for us to
             communicate to you with. Different roles may require additional
             training. Thank you so much for your interest in volunteering at
-            Pop-Up Hanami! The event can only happen because of people like you
+            Pop-Up Hanami!</p>
+            <p className="mt-4 italic">The event can only happen because of people like you
             :)
           </p>
           <div

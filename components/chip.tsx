@@ -1,6 +1,14 @@
 import { ChevronRightRounded } from "@mui/icons-material";
+import { FC } from "react";
 
-export default function Chip({ title, description, icon, link }) {
+interface ChipProps {
+  title: string,
+  description: string,
+  icon: any,
+  link: string
+}
+
+const Chip: FC<ChipProps> = ({ title, description, icon, link }) => {
   return (
     <a href={link} target="_blank">
       <div className="flex flex-row justify-between items-center font-mono text-black hover:text-pink bg-white border-2 border-black hover:border-pink rounded-xl">
@@ -18,3 +26,5 @@ export default function Chip({ title, description, icon, link }) {
     </a>
   );
 }
+
+export default Chip;

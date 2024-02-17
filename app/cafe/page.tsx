@@ -1,10 +1,11 @@
 "use client";
 import { CafeFaq } from "@/components/cafeFaq";
+import { easeInOut, motion } from "framer-motion";
 
 export default function Cafe() {
   return (
     <main>
-      <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black text-balance">
+      <div className="relative flex flex-col w-full min-h-dvl items-center p-2 pb-0 text-black text-balance">
         <div
           data-aos="fade-up"
           className="relative flex flex-row lg:w-2/3 justify-between"
@@ -28,6 +29,18 @@ export default function Cafe() {
         <div data-aos="fade-up" className="lg:w-2/3 my-12">
           <CafeFaq />
         </div>
+        <motion.img
+          src="/menu.jpeg"
+          className="float rounded-xl z-0 w-1/2"
+          initial={{ y: 500, rotateZ: 50 }}
+          animate={{ y: 0, rotateZ: 0 }}
+          transition={{
+            duration: 2,
+            bounce: 0.25,
+            type: "spring",
+            ease: "easeInOut",
+          }}
+        ></motion.img>
       </div>
     </main>
   );

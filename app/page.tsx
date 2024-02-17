@@ -1,9 +1,7 @@
 "use client";
 import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { NavBar } from "@/components/navbar";
-import { Card } from "@/components/card";
-import { Footer } from "@/components/footer";
+import Card from "@/components/card";
 import { Faq } from "@/components/faq";
 
 function useParallax(value: MotionValue<number>, distance: number) {
@@ -13,7 +11,7 @@ function useParallax(value: MotionValue<number>, distance: number) {
 export default function Home() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({ target: ref });
-  const y = useParallax(scrollYProgress, 40);
+  const y = useParallax(scrollYProgress, 50);
   return (
     <>
       <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black text-balance">
@@ -28,6 +26,7 @@ export default function Home() {
         </motion.div> */}
 
         <div
+        data-aos="fade-up"
           ref={ref}
           className="relative flex flex-row lg:w-2/3 justify-between"
         >
@@ -47,7 +46,7 @@ export default function Home() {
               British Columbia, featuring a cosplay cafe, an artist alley, stage
               performances, games & raffles, and more.
             </p>
-            <div className="flex flex-col md:flex-row gap-8 my-10 justify-items-stretch">
+            <div className="flex flex-col md:flex-row gap-8 mt-10 justify-items-stretch">
               <motion.button
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.95 }}
@@ -68,12 +67,12 @@ export default function Home() {
           </div>
           <motion.img
             style={{ y }}
-            className="hidden absolute z-0 lg:block -right-10 -top-20 w-2/3"
+            className="hidden absolute z-0 lg:block -right-28 -top-20 w-3/4"
             src="/graphic.png"
           />
         </div>
       </div>
-      <div id="features" className="z-50 pt-20 px-20 lg:p-40">
+      <div id="features" className="z-50 px-20 -mt-20 lg:p-40">
         <div
           data-aos="fade-up"
           className="grid lg:grid-cols-2 gap-10 text-black"
@@ -91,7 +90,7 @@ export default function Home() {
             description={
               "Featuring never before seen merch from the hidden talents of UBCAni artists."
             }
-            link={"#"}
+            link={"/coming-soon"}
             imgsrc={"/artist alley.png"}
           />
           <Card
@@ -99,7 +98,7 @@ export default function Home() {
             description={
               "DJ sets, dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            link={"#"}
+            link={"/coming-soon"}
             imgsrc={"/stage performances.png"}
           />
           <Card
@@ -111,9 +110,9 @@ export default function Home() {
             imgsrc={"/games.png"}
           />
         </div>
-      </div>
-      <div data-aos="fade-up">
-        <Faq />
+        <div data-aos="fade-up" className="mt-20">
+          <Faq />
+        </div>
       </div>
     </>
   );

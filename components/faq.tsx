@@ -1,12 +1,12 @@
 export function Faq() {
   return (
-    <div className="max-w-[90rem] font-sans text-black text-lg px-4 lg:px-8 mx-auto mb-56">
+    <div className="max-w-[90rem] font-sans text-black text-lg px-4 lg:px-8 mx-auto">
       <div className="flex flex-col items-center mb-14">
-        <h2 className="text-5xl uppercase font-display-en font-bold md:text-7xl md:leading-tight dark:text-white">
+        <h2 className="text-5xl uppercase font-display-en font-bold md:text-7xl md:leading-tight">
           Frequently Asked Questions
         </h2>
         <p className="text-xl">
-          Have more questions? Contact us at hanami@ubcani.com!
+          Have more questions? Contact us at <span className="text-pink">hanami@ubcani.com</span>!
         </p>
       </div>
       <div className="grid md:grid-cols-4 gap-10">

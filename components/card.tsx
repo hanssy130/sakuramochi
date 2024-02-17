@@ -1,4 +1,13 @@
-export function Card({ title, description, imgsrc, link }) {
+import { FC } from "react";
+
+interface CardProps {
+  title: string,
+  description: string,
+  imgsrc: string,
+  link: string
+}
+
+const Card: FC<CardProps> = ({ title, description, imgsrc, link }) => {
   return (
     <a
       className="flex flex-col group bg-white overflow-hidden transition"
@@ -12,7 +21,7 @@ export function Card({ title, description, imgsrc, link }) {
         />
       </div>
       <div className="py-5 md:py-10">
-        <p className="font-sans my-2 text-5xl font-bold">{title}</p>
+        <p className="font-sans my-2 text-4xl font-bold">{title}</p>
         <p className="text-balance font-sans my-2 text-xl italic">
           {description}
         </p>
@@ -20,3 +29,4 @@ export function Card({ title, description, imgsrc, link }) {
     </a>
   );
 }
+export default Card;

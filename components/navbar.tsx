@@ -39,7 +39,7 @@ export function NavBar() {
           <div className="md:hidden">
             <button
               type="button"
-              className="hs-collapse-toggle size-8 flex justify-center items-center rounded-full border-2 border-grey text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="hs-collapse-toggle size-8 flex justify-center items-center rounded-full border-2 border-grey text-black hover:bg-grey disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               data-hs-collapse="#navbar-collapse-with-animation"
               aria-controls="navbar-collapse-with-animation"
               aria-label="Toggle navigation"
@@ -84,27 +84,27 @@ export function NavBar() {
         >
           <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-start md:gap-y-0 md:gap-x-7 md:mt-0 md:ps-7">
             <a
-              className="font-medium text-blue-600 md:py-6 dark:text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="font-medium text-black transition hover:text-pink md:py-6"
               href="/"
               aria-current="page"
             >
               Home
             </a>
             <a
-              className="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="font-medium text-black transition hover:text-pink md:py-6"
               href="https://www.ubcani.com/"
               target="_blank"
             >
               About Us
             </a>
             <a
-              className="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="font-medium text-black transition hover:text-pink md:py-6"
               href="/volunteer"
             >
               Volunteering
             </a>
             <a
-              className="font-medium text-gray-500 hover:text-gray-400 md:py-6 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              className="font-medium text-black transition hover:text-pink md:py-6"
               href="/policies"
             >
               Event Policies
