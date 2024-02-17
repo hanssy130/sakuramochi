@@ -5,24 +5,21 @@ export function CafeFaq() {
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
           Got questions about the Cafe?
         </h2>
-        <p className="mt-1 text-black">
-          Answers to the most frequently asked questions.
-        </p>
       </div>
 
       <div className="mx-auto">
         <div className="hs-accordion-group">
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 active"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6 active"
             id="hs-basic-with-title-and-arrow-stretched-heading-one"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
             >
-              Can I cancel at anytime?
+              I have allergies, can I still dine at the Sakura Cosplay Cafe?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -36,7 +33,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -56,24 +53,25 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                Yes, you can cancel anytime no questions are asked while you
-                cancel but we would highly appreciate if you will give us some
-                feedback.
+                We cannot guarantee an allergen-free environment at the Sakura
+                Cosplay Cafe. We will provide a list of ingredients for each
+                menu item, but it is ultimately up to your own discretion
+                whether you choose to dine at our cafe.
               </p>
             </div>
           </div>
 
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6"
             id="hs-basic-with-title-and-arrow-stretched-heading-two"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
             >
-              My team has credits. How do we use them?
+              Can I reserve a seat at the Sakura Cosplay Cafe?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -87,7 +85,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -107,23 +105,24 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                Once your team signs up for a subscription plan. This is where
-                we sit down, grab a cup of coffee and dial in the details.
+                No. All seats are first come first serve at the Sakura Cosplay
+                Cafe. We recommend arriving early to secure your cosplay dining
+                experience at our cafe!
               </p>
             </div>
           </div>
 
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6"
             id="hs-basic-with-title-and-arrow-stretched-heading-three"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
             >
-              How does Preline's pricing work?
+              What methods of payment do you accept at the Sakura Cosplay Cafe?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -137,7 +136,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -157,23 +156,22 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                Our subscriptions are tiered. Understanding the task at hand and
-                ironing out the wrinkles is key.
+                We accept card payments only.
               </p>
             </div>
           </div>
 
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6"
             id="hs-basic-with-title-and-arrow-stretched-heading-four"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
             >
-              How secure is Preline?
+              What time does the Sakura Cosplay Cafe run until?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -187,7 +185,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -207,24 +205,25 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                Protecting the data you trust to Preline is our first priority.
-                This part is really crucial in keeping the project in line to
-                completion.
+                The Sakura Cosplay Cafe will open at 1pm and be open until we
+                run out of food. Food and drink is limited, so we recommend
+                coming as early as possible to secure your favourite treat at
+                the Sakura Cosplay Cafe!
               </p>
             </div>
           </div>
 
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6"
             id="hs-basic-with-title-and-arrow-stretched-heading-five"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
             >
-              How do I get access to a theme I purchased?
+              How many people can sit together at the Sakura Cosplay Cafe?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -238,7 +237,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -258,27 +257,24 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                If you lose the link for a theme you purchased, don't panic!
-                We've got you covered. You can login to your account, tap your
-                avatar in the upper right corner, and tap Purchases. If you
-                didn't create a login or can't remember the information, you can
-                use our handy Redownload page, just remember to use the same
-                email you originally made your purchases with.
+                Our tables seat a maximum of 6, and a minimum of 2. If you want
+                to come eat solo, please understand that you might get seated
+                with other solos as seating space is limited in the cafe.
               </p>
             </div>
           </div>
 
           <div
-            className="hs-accordion hs-accordion-active:bg-pink-light rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]"
+            className="hs-accordion hs-accordion-active:bg-grey bg-opacity-25 rounded-xl p-6"
             id="hs-basic-with-title-and-arrow-stretched-heading-six"
           >
             <button
-              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500"
+              className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
             >
-              Upgrade License Type
+              What time does the Sakura Cosplay Cafe run until?
               <svg
-                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -292,7 +288,7 @@ export function CafeFaq() {
                 <path d="m6 9 6 6 6-6" />
               </svg>
               <svg
-                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-grey"
+                className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -312,10 +308,10 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
             >
               <p className="text-gray-800 dark:text-gray-200">
-                There may be times when you need to upgrade your license from
-                the original type you purchased and we have a solution that
-                ensures you can apply your original purchase cost to the new
-                license purchase.
+                The Sakura Cosplay Cafe will open at 1pm and be open until we
+                run out of food. Food and drink is limited, so we recommend
+                coming as early as possible to secure your favourite treat at
+                the Sakura Cosplay Cafe!
               </p>
             </div>
           </div>
