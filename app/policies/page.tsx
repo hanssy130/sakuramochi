@@ -3,19 +3,19 @@
 export default function Policies() {
   return (
     <main>
-      <div
-        data-aos="fade-up"
-        className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black text-pretty"
-      >
-        <div className="relative flex flex-row lg:w-2/3 justify-between">
+      <div className="relative flex flex-col w-full min-h-dvl items-center p-10 pb-24 text-black text-pretty">
+        <div
+          data-aos="fade-up"
+          className="relative flex flex-row lg:w-2/3 justify-between"
+        >
           <div className="flex flex-col z-40 lg:items-start justify-items-center gap-2 p-0">
-            <p className="font-display-en uppercase text-9xl text-nowrap mb-12">
+            <p className="font-display-en uppercase text-black text-8xl mb-6 md:text-9xl md:text-nowrap">
               Event Policies
             </p>
           </div>
         </div>
         <div data-aos="fade-up" className="w-2/3"></div>
-        <div className="lg:w-2/3 font-sans grid lg:grid-cols-2 grid-flow-row gap-8">
+        <div className="lg:w-2/3 font-sans grid grid-cols-1 lg:grid-cols-2 grid-flow-row gap-8">
           <div className="flex flex-col gap-4">
             <p className="text-3xl mb-4 uppercase font-bold tracking-wider">
               Identifying Support Staff
@@ -174,7 +174,7 @@ export default function Policies() {
               events, and the proper authorities being contacted.
             </p>
           </div>
-          <div className="col-start-1">
+          <div className="lg:col-start-1">
             <p className="text-3xl mb-4 uppercase font-bold tracking-wider">
               Pet and Animal Protocol
             </p>
@@ -212,7 +212,7 @@ export default function Policies() {
               proper authorities.
             </p>
           </div>
-          <div className="col-start-2 row-start-2 flex flex-col gap-4">
+          <div className="lg:col-start-2 lg:row-start-2 flex flex-col gap-4">
             <p className="text-3xl uppercase font-bold tracking-wider">
               Appearance, Costumes, Cosplay, and Prop Policies
             </p>
