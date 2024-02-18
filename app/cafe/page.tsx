@@ -24,9 +24,9 @@ export default function Cafe() {
         </div>
         <div data-aos="fade-up" className="lg:w-2/3">
           <p className="font-sans font-medium text-lg">
-            Come sit under our giant handcrafted sakura tree at our Sakura
-            Cosplay Cafe, and be pampered by waiters in your favourite cosplays!
-            Maybe they’ll even cast a love spell on your food~
+            Come sit under the cherry blossoms at our Sakura Cosplay Cafe, and
+            be pampered by waiters in your favourite cosplays! Maybe they’ll
+            even cast a love spell on your food~
           </p>
         </div>
         <div data-aos="fade-up" className="lg:w-2/3 my-24">

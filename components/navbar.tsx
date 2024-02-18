@@ -27,7 +27,7 @@ export function NavBar() {
     };
   }, [featureOffset]);
   return (
-    <header className="font-sans sticky top-4 inset-x-0 flex flex-wrap md:justify-between md:flex-nowrap z-50 w-full px-20 text-sm">
+    <header className="font-sans sticky top-4 inset-x-0 flex flex-wrap md:justify-between md:flex-nowrap z-50 w-full px-10 lg:px-20 text-sm">
       <motion.nav
         className="relative w-full bg-white text-lg tracking-wider uppercase font-bold border-2 border-grey md:rounded-full rounded-[30px] mx-2 py-3 px-4 md:flex md:items-center justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto"
         aria-label="Global"
@@ -35,7 +35,7 @@ export function NavBar() {
         animate={{ y: isVisible ? 0 : -100 }} // Fade in and slide down when visible
         transition={{ duration: 0.3 }}
       >
-        <div className="max-w-[90rem]">
+        <div className="lg:max-w-[90rem]">
           <div className="flex items-center justify-between">
             <div className="md:hidden">
               <button

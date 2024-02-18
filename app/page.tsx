@@ -80,7 +80,7 @@ export default function Home() {
           <Card
             title={"Sakura Cosplay Cafe"}
             description={
-              "Cosplay waiters serve you sweet treats under the sakura tree!"
+              "Cosplay waiters serve you sweet treats under the cherry blossoms!"
             }
             link={"/cafe"}
             imgsrc={"/cosplay cafe.png"}
@@ -96,7 +96,7 @@ export default function Home() {
           <Card
             title={"Stage Performances"}
             description={
-              "DJ sets, dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
+              "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
             link={"/coming-soon"}
             imgsrc={"/stage performances.png"}
@@ -104,7 +104,7 @@ export default function Home() {
           <Card
             title={"Games & Raffles"}
             description={
-              "Earn tickets at our Hanami-inspired games to cash in at our raffles."
+              "Game at our free-play arcade and earn tickets at our Hanami-inspired games to cash in at our raffles."
             }
             link={"#"}
             imgsrc={"/games.png"}
