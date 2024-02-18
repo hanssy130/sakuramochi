@@ -16,7 +16,7 @@ export function Footer() {
             <div className="mt-3 grid space-y-3">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-pink transition"
                   href="https://www.ubcani.com/membership/info/"
                   target="_blank"
                 >
@@ -25,7 +25,7 @@ export function Footer() {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-pink transition"
                   href="https://www.ubcani.com/contactus/info/"
                   target="_blank"
                 >
@@ -41,7 +41,7 @@ export function Footer() {
             <div className="mt-3 grid space-y-3">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-pink transition"
                   href="/releases/liability"
                 >
                   Liability Release
@@ -49,7 +49,7 @@ export function Footer() {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-pink transition"
                   href="/releases/responsibility-for-minors"
                 >
                   Responsibility for Minors
@@ -57,7 +57,7 @@ export function Footer() {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                  className="inline-flex gap-x-2 hover:text-pink transition"
                   href="/releases/food"
                 >
                   Food and Allergens
@@ -72,7 +72,7 @@ export function Footer() {
             </h4>
 
             <form>
-              <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-white rounded-lg p-2 dark:bg-gray-800">
+              <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-white rounded-lg p-2">
                 <div className="w-full">
                   <input
                     type="text"
@@ -89,7 +89,7 @@ export function Footer() {
                   Subscribe
                 </a>
               </div>
-              <p className="mt-3 text-gray-400">
+              <p className="mt-3">
                 Weekly newsletters about our upcoming events, news, and
                 opportunities.
               </p>
@@ -98,9 +98,7 @@ export function Footer() {
         </div>
         <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
           <div className="flex justify-between items-center">
-            <p className="text-gray-400">
-              © 2024 UBC Anime Club. All rights reserved.
-            </p>
+            <p>© 2024 UBC Anime Club. All rights reserved.</p>
           </div>
 
           <div>

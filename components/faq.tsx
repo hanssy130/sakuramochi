@@ -1,28 +1,29 @@
 export function Faq() {
   return (
-    <div className="max-w-[90rem] font-sans text-black text-lg px-4 lg:px-8 mx-auto">
+    <div className="max-w-[90rem] font-sans text-black text-lg px-4 mb-24 lg:mb-0 lg:px-8 mx-auto">
       <div className="flex flex-col items-center mb-14">
-        <h2 className="text-5xl uppercase font-display-en font-bold md:text-7xl md:leading-tight">
+        <h2 className="text-5xl md:text-6xl uppercase font-display-en font-bold lg:text-7xl md:leading-tight">
           Frequently Asked Questions
         </h2>
         <p className="text-xl">
-          Have more questions? Contact us at <span className="text-pink">hanami@ubcani.com</span>!
+          Have more questions? Contact us at{" "}
+          <span className="text-pink">hanami@ubcani.com</span>!
         </p>
       </div>
-      <div className="grid md:grid-cols-4 gap-10">
-        <div className="md:col-span-2">
+      <div className="grid lg:grid-cols-2 gap-10">
+        <div className="col-span-2 lg:col-span-1">
           <div className="hs-accordion-group divide-y divide-pink">
             <div
-              className="hs-accordion pb-3"
+              className="hs-accordion pb-3 active"
               id="hs-basic-with-title-and-arrow-stretched-heading-one"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
                 What time is the event? Can I come at any time?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -36,7 +37,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -73,12 +74,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
                 Can I buy a ticket on the day-of?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -92,7 +93,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -126,12 +127,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-three"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
                 Where can I park?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -145,7 +146,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -164,7 +165,7 @@ export function Faq() {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
-                <p className="text-gray-600 dark:text-gray-400">
+                <p>
                   Parking on campus takes the form of lot/street parking as well
                   as parkades. For more information on specific parking
                   information including locations as well as prices and hours,
@@ -183,12 +184,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
                 Are pets permitted at the event?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -202,7 +203,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -221,7 +222,7 @@ export function Faq() {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="">
                   Pets are not allowed in the AMS Nest, with the exception of
                   approved support and service animals. For more information,
                   please see our Event Policies.
@@ -234,12 +235,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
               >
                 What are your cosplay and weapon prop policies?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -253,7 +254,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -285,22 +286,18 @@ export function Faq() {
                 <p>For more information, please see our Event Policies.</p>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="md:col-span-2">
-          <div className="hs-accordion-group divide-y divide-pink">
             <div
-              className="hs-accordion pb-3"
-              id="hs-basic-with-title-and-arrow-stretched-heading-one"
+              className="hs-accordion pt-6 pb-3 lg:hidden"
+              id="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
                 Where is the event? How do I get there?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -314,7 +311,272 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m18 15-6-6-6 6" />
+                </svg>
+              </button>
+              <div
+                id="hs-basic-with-title-and-arrow-stretched-collapse-two"
+                className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
+              >
+                <p>
+                  Pop-Up Hanami will be held across the 2nd floor of the AMS
+                  Nest. Please first pick up your registration pass in the Lower
+                  Atrium (head down the stairs in front of Blue Chip) before
+                  heading to the main event!
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="hs-accordion pt-6 pb-3 lg:hidden"
+              id="hs-basic-with-title-and-arrow-stretched-heading-two"
+            >
+              <button
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
+              >
+                How can I purchase a UBCAni Membership?
+                <svg
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+                <svg
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m18 15-6-6-6 6" />
+                </svg>
+              </button>
+              <div
+                id="hs-basic-with-title-and-arrow-stretched-collapse-two"
+                className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
+              >
+                <p>
+                  You can purchase a UBCAni Membership at any of our weekly
+                  events hosted on UBC campus, or at our club room by dropping
+                  us a message at instagram.com/ubcani, pinging an exec on our
+                  Discord Server, or sending an email to info@ubcani.com.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="hs-accordion pt-6 pb-3 lg:hidden"
+              id="hs-basic-with-title-and-arrow-stretched-heading-three"
+            >
+              <button
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
+              >
+                Is card payment accepted at the event?
+                <svg
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+                <svg
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m18 15-6-6-6 6" />
+                </svg>
+              </button>
+              <div
+                id="hs-basic-with-title-and-arrow-stretched-collapse-three"
+                className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
+              >
+                <p className="">
+                  The cafe will only accept Card payment, but some artist alley
+                  booths may be cash only. We encourage you to bring cash just
+                  in case!
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="hs-accordion pt-6 pb-3 lg:hidden"
+              id="hs-basic-with-title-and-arrow-stretched-heading-four"
+            >
+              <button
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
+              >
+                How do I connect to the UBC WiFi?
+                <svg
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+                <svg
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m18 15-6-6-6 6" />
+                </svg>
+              </button>
+              <div
+                id="hs-basic-with-title-and-arrow-stretched-collapse-four"
+                className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
+              >
+                <p>
+                  You can access UBC’s visitors wifi by selecting ubcvisitor.
+                  For more information including how to connect and access
+                  ubcvisitor, please consult the official web page:
+                  https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="hs-accordion pt-6 pb-3 lg:hidden"
+              id="hs-basic-with-title-and-arrow-stretched-heading-five"
+            >
+              <button
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
+              >
+                Help! I have a question that isn’t answered by this FAQ.
+                <svg
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+                <svg
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m18 15-6-6-6 6" />
+                </svg>
+              </button>
+              <div
+                id="hs-basic-with-title-and-arrow-stretched-collapse-five"
+                className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
+              >
+                <p className="">
+                  For more information about the Sakura Cosplay Cafe, Artist &
+                  Vendor Alley, Stage Performances, and Games & Raffles, please
+                  see the sections above. If you still cannot find the answer to
+                  your question, please email us at info@ubcani.com, message us
+                  at instagram.com/ubcani, or ping an exec in our Discord
+                  Server!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden lg:block lg:col-span-1">
+          <div className="hs-accordion-group divide-y divide-pink">
+            <div
+              className="hs-accordion pb-3 active"
+              id="hs-basic-with-title-and-arrow-stretched-heading-one"
+            >
+              <button
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
+                aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
+              >
+                Where is the event? How do I get there?
+                <svg
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+                <svg
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -347,12 +609,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
                 How can I purchase a UBCAni Membership?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -366,7 +628,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -399,12 +661,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-three"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
                 Is card payment accepted at the event?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -418,7 +680,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -437,9 +699,10 @@ export function Faq() {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
-                <p className="text-gray-600 dark:text-gray-400">
-                  Yes. All of our servers, artists, and vendors will accept
-                  debit and credit payment.
+                <p className="">
+                  The cafe will only accept Card payment, but some artist alley
+                  booths may be cash only. We encourage you to bring cash just
+                  in case!
                 </p>
               </div>
             </div>
@@ -449,12 +712,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
                 How do I connect to the UBC WiFi?
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -468,7 +731,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -501,12 +764,12 @@ export function Faq() {
               id="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <button
-                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
               >
                 Help! I have a question that isn’t answered by this FAQ.
                 <svg
-                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:hidden block flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -520,7 +783,7 @@ export function Faq() {
                   <path d="m6 9 6 6 6-6" />
                 </svg>
                 <svg
-                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
+                  className="hs-accordion-active:block hidden flex-shrink-0 size-5 group-hover:text-green "
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -539,7 +802,7 @@ export function Faq() {
                 className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
-                <p className="text-gray-600 dark:text-gray-400">
+                <p className="">
                   For more information about the Sakura Cosplay Cafe, Artist &
                   Vendor Alley, Stage Performances, and Games & Raffles, please
                   see the sections above. If you still cannot find the answer to

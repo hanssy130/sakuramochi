@@ -26,7 +26,7 @@ export default function Home() {
         </motion.div> */}
 
         <div
-        data-aos="fade-up"
+          data-aos="fade-up"
           ref={ref}
           className="relative flex flex-row lg:w-2/3 justify-between"
         >
@@ -46,7 +46,7 @@ export default function Home() {
               British Columbia, featuring a cosplay cafe, an artist alley, stage
               performances, games & raffles, and more.
             </p>
-            <div className="flex flex-col md:flex-row gap-8 mt-10 justify-items-stretch">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-8 my-10 justify-items-stretch">
               <motion.button
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.95 }}
@@ -72,7 +72,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div id="features" className="z-50 px-20 -mt-20 lg:p-40">
+      <div id="features" className="z-50 px-10 md:px-20 -mt-20 lg:p-40">
         <div
           data-aos="fade-up"
           className="grid lg:grid-cols-2 gap-10 text-black"

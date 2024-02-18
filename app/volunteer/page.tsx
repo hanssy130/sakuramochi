@@ -12,38 +12,42 @@ import Chip from "@/components/chip";
 export default function Volunteer() {
   return (
     <main>
-      <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black">
+      <div className="relative flex flex-col w-full min-h-dvl items-center p-10 pb-24 text-black text-pretty">
         <div
           data-aos="fade-up"
-          className="relative flex flex-row lg:w-2/3 justify-between"
+          className="relative flex flex-row xl:w-2/3 md:justify-items-start justify-between"
         >
-          <div className="flex flex-col z-40 lg:items-start justify-items-center gap-2 p-0">
-            <p className="font-sans uppercase text-2xl font-bold text-pink tracking-wider">
+          <div className="flex flex-col z-40 items-center md:items-start gap-2 p-0">
+            <p className="hidden md:block font-sans uppercase text-2xl font-bold text-pink tracking-wider">
               help bring pop-up hanami to life!
             </p>
-            <p className="font-display-en uppercase text-pink text-9xl text-nowrap">
+            <p className="font-display-en uppercase text-pink text-8xl mb-6 md:text-9xl">
               Volunteer <span className="hidden text-black lg:inline">Now</span>
             </p>
           </div>
         </div>
         <div
           data-aos="fade-up"
-          className="border-grey border-2 relative aspect-[18/6] pt-72 rounded-xl overflow-hidden mb-10"
+          className="border-grey border-2 relative aspect-[18/6] w-full xl:w-2/3 rounded-xl overflow-hidden mb-10"
         >
           <img
             className="size-full absolute top-0 start-0 object-cover rounded-2xl"
             src="/volunteers wanted.png"
           />
         </div>
-        <div data-aos="fade-up" className="lg:w-2/3 font-sans font-medium text-lg">
+        <div
+          data-aos="fade-up"
+          className="lg:w-2/3 font-sans font-medium text-lg"
+        >
           <p>
             All volunteers will be expected to arrive early on the day-of to
             help set-up the event, and have a Discord account for us to
             communicate to you with. Different roles may require additional
             training. Thank you so much for your interest in volunteering at
-            Pop-Up Hanami!</p>
-            <p className="mt-4 italic">The event can only happen because of people like you
-            :)
+            Pop-Up Hanami!
+          </p>
+          <p className="mt-4 italic">
+            The event can only happen because of people like you :)
           </p>
           <div
             data-aos="fade-up"

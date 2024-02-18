@@ -3,20 +3,20 @@
 export default function ResponsibilityMinors() {
   return (
     <main>
-      <div className="relative flex flex-col w-full min-h-dvl items-center p-24 text-black text-balance">
+      <div className="relative flex flex-col w-full min-h-dvl items-center p-10 pb-24 text-black text-pretty">
         <div
           data-aos="fade-up"
           className="relative flex flex-row lg:w-2/3 justify-between"
         >
           <div className="flex flex-col z-40 lg:items-start justify-items-center gap-2 p-0">
-            <p className="font-display-en uppercase text-black text-9xl">
+            <p className="font-display-en uppercase text-black text-6xl md:text-9xl text-balance">
               Responsibility for Minors
             </p>
           </div>
         </div>
         <div
           data-aos="fade-up"
-          className="w-2/3 font-sans font-medium text-lg flex flex-col gap-4"
+          className="lg:w-2/3 font-sans font-medium md:text-lg flex flex-col gap-4"
         >
           <p>
             In consideration of the minor attendee (the “Minor”) being permitted

@@ -12,8 +12,8 @@ const config: Config = {
     fontFamily: {
       'sans': ["var(--font-figtree)"],
       'mono': ["var(--font-sometype)"],
-      'display-en': ["Bahnschrift", "figtree"],
-      'display-jp': ["YeFontAoYeHei", "figtree"],
+      'display-en': ["Bahnschrift", "var(--font-figtree)"],
+      'display-jp': ["YeFontAoYeHei", "var(--font-figtree)"],
     },
     colors: {
       'pink': '#FF9191',
