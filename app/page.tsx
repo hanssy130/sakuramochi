@@ -106,7 +106,7 @@ export default function Home() {
             description={
               "Game at our free-play arcade and earn tickets at our Hanami-inspired games to cash in at our raffles."
             }
-            link={"#"}
+            link={"coming-soon"}
             imgsrc={"/games.png"}
           />
         </div>
