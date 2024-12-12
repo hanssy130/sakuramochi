@@ -57,14 +57,15 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p className="mb-2">
-                  Pop-Up Hanami officially starts at 11:30am. The Artist &
+                  Details TBD! Keep an eye on our social media for the latest updates or join the UBC Anime Discord.
+                  {/* Pop-Up Hanami officially starts at 11:30am. The Artist &
                   Vendor Alley will run until 7pm, and the Sakura Cosplay Cafe
                   will run until we run out of food~
                 </p>
                 <p>
                   We recommend coming as early as possible to secure a seat at
                   the Sakura Cosplay Cafe and get the limited-run merch at the
-                  Artist & Vendor Alley!
+                  Artist & Vendor Alley! */}
                 </p>
               </div>
             </div>
@@ -486,10 +487,10 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
                 <p>
-                  You can access UBC’s visitors wifi by selecting ubcvisitor.
+                  You can testaccess UBC’s visitors wifi by selecting ubcvisitor.
                   For more information including how to connect and access
                   ubcvisitor, please consult the official web page:
-                  https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network
+                  <a href="https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network" >https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network</a>
                 </p>
               </div>
             </div>
@@ -753,8 +754,8 @@ export function Faq() {
                 <p>
                   You can access UBC’s visitors wifi by selecting ubcvisitor.
                   For more information including how to connect and access
-                  ubcvisitor, please consult the official web page:
-                  https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network
+                  ubcvisitor, please consult the official web page: <br></br>
+                  <a href="https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network">https://it.ubc.ca/services/email-voice-internet/wireless-internet-access/ubcvisitor-wireless-network</a>
                 </p>
               </div>
             </div>

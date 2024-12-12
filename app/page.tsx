@@ -35,11 +35,13 @@ export default function Home() {
               ubc anime club presents
             </p>
             <p className="font-display-en uppercase text-9xl">
-              <span className="text-pink">Pop-Up</span> Hanami
+              <span className="text-pink">Pop-Up</span> Hanami<br></br>
+              <span className="text-pink"> 2025</span>
             </p>
+            
             <div className="font-mono font-bold text-3xl md:text-4xl uppercase mb-5 text-nowrap">
-              <p>Saturday, March 23rd</p>
-              <p>11:30 AM - 7:00 PM</p>
+              <p>Date TBD</p>
+              <p>Time TBD</p>
             </div>
             <p className="font-sans w-full lg:w-2/5 font-medium text-lg">
               A one-day, cherry-blossom-themed event at the University of
@@ -54,7 +56,7 @@ export default function Home() {
               >
                 <a href="#features">Learn More</a>
               </motion.button>
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.95 }}
                 className="font-sans uppercase font-bold text-lg tracking-wider border-2 bg-white border-black py-4 px-10 inline-flex items-center gap-x-2 rounded-full"
@@ -62,7 +64,7 @@ export default function Home() {
                 <a href="https://u.ubcani.com/hanami" target="_blank">
                   Buy Tickets NOW!
                 </a>
-              </motion.button>
+              </motion.button> */}
             </div>
           </div>
           <motion.img
@@ -90,7 +92,7 @@ export default function Home() {
             description={
               "Featuring never before seen merch from the hidden talents of UBCAni artists."
             }
-            link={"/coming-soon"}
+            // link={"/coming-soon"}
             imgsrc={"/artist alley.png"}
           />
           <Card
@@ -98,7 +100,7 @@ export default function Home() {
             description={
               "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            link={"/coming-soon"}
+            // link={"/coming-soon"}
             imgsrc={"/stage performances.png"}
           />
           <Card
@@ -106,7 +108,7 @@ export default function Home() {
             description={
               "Game at our free-play arcade and earn tickets at our Hanami-inspired games to cash in at our raffles."
             }
-            link={"coming-soon"}
+            // link={"coming-soon"}
             imgsrc={"/games.png"}
           />
         </div>

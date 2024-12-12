@@ -31,5 +31,9 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) site for Pop-Up Hanami 2024, presented by UBCAni.",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }
