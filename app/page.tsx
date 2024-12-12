@@ -92,7 +92,7 @@ export default function Home() {
             description={
               "Featuring never before seen merch from the hidden talents of UBCAni artists."
             }
-            // link={"/coming-soon"}
+            link={""}
             imgsrc={"/artist alley.png"}
           />
           <Card
@@ -100,7 +100,7 @@ export default function Home() {
             description={
               "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            // link={"/coming-soon"}
+            link={""}
             imgsrc={"/stage performances.png"}
           />
           <Card
@@ -108,7 +108,7 @@ export default function Home() {
             description={
               "Game at our free-play arcade and earn tickets at our Hanami-inspired games to cash in at our raffles."
             }
-            // link={"coming-soon"}
+            link={""}
             imgsrc={"/games.png"}
           />
         </div>
