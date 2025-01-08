@@ -117,10 +117,11 @@ export function NavBar() {
             whileTap={{ scale: 0.95 }}
             className="absolute right-3 top-3 md:top-5 md:right-5 text-nowrap font-sans underline underline-offset-4 uppercase font-bold text-xl text-pink tracking-wider flex flex-row items-center gap-x-2 rounded-full"
           >
-            <a href="https://u.ubcani.com/hanami" target="_blank">
+            {/* <a href="https://u.ubcani.com/hanami" target="_blank">
               Buy Tickets NOW
               <ChevronRightRounded fontSize="large" />
-            </a>
+            </a> */}
+            Tickets coming soon!
           </motion.div>
         </div>
       </motion.nav>

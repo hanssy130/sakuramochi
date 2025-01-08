@@ -332,10 +332,7 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p>
-                  Pop-Up Hanami will be held across the 2nd floor of the AMS
-                  Nest. Please first pick up your registration pass in the Lower
-                  Atrium (head down the stairs in front of Blue Chip) before
-                  heading to the main event!
+                Pop-Up Hanami will be held across the 2nd floor of the AMS Nest. Please first pick up your registration pass on the 1st floor in front of Thirstyyy before heading to the main event!
                 </p>
               </div>
             </div>
@@ -539,12 +536,7 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
                 <p className="">
-                  For more information about the Sakura Cosplay Cafe, Artist &
-                  Vendor Alley, Stage Performances, and Games & Raffles, please
-                  see the sections above. If you still cannot find the answer to
-                  your question, please email us at info@ubcani.com, message us
-                  at instagram.com/ubcani, or ping an exec in our Discord
-                  Server!
+                For more information about the Sakura Cosplay Cafe, Artist & Vendor Alley, Stage Performances, and Activities & Raffles, please see the sections above. If you still cannot find the answer to your question, please email us at hanami@ubcani.com, message us at <a href="instagram.com/ubcani"> instagram.com/ubcani</a>, or ping an exec in our Discord Server!
                 </p>
               </div>
             </div>

@@ -40,13 +40,11 @@ export default function Home() {
             </p>
             
             <div className="font-mono font-bold text-3xl md:text-4xl uppercase mb-5 text-nowrap">
-              <p>Date TBD</p>
+              <p>Date March 29, 2025</p>
               <p>Time TBD</p>
             </div>
             <p className="font-sans w-full lg:w-2/5 font-medium text-lg">
-              A one-day, cherry-blossom-themed event at the University of
-              British Columbia, featuring a cosplay cafe, an artist alley, stage
-              performances, games & raffles, and more.
+            A one-day, cherry-blossom-themed event at the University of British Columbia, featuring a cosplay cafe, an artist alley, stage performances, games & raffles, and more!
             </p>
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 my-10 justify-items-stretch">
               <motion.button
@@ -56,7 +54,7 @@ export default function Home() {
               >
                 <a href="#features">Learn More</a>
               </motion.button>
-              {/* <motion.button
+              <motion.button
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 whileTap={{ scale: 0.95 }}
                 className="font-sans uppercase font-bold text-lg tracking-wider border-2 bg-white border-black py-4 px-10 inline-flex items-center gap-x-2 rounded-full"
@@ -64,7 +62,7 @@ export default function Home() {
                 <a href="https://u.ubcani.com/hanami" target="_blank">
                   Buy Tickets NOW!
                 </a>
-              </motion.button> */}
+              </motion.button>
             </div>
           </div>
           <motion.img
@@ -84,7 +82,7 @@ export default function Home() {
             description={
               "Cosplay waiters serve you sweet treats under the cherry blossoms!"
             }
-            link={"/cafe"}
+            link={"/coming-soon"}
             imgsrc={"/cosplay cafe.png"}
           />
           <Card
@@ -92,7 +90,7 @@ export default function Home() {
             description={
               "Featuring never before seen merch from the hidden talents of UBCAni artists."
             }
-            link={""}
+            link={"coming-soon"}
             imgsrc={"/artist alley.png"}
           />
           <Card
@@ -100,15 +98,15 @@ export default function Home() {
             description={
               "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            link={""}
+            link={"/coming-soon"}
             imgsrc={"/stage performances.png"}
           />
           <Card
             title={"Games & Raffles"}
             description={
-              "Game at our free-play arcade and earn tickets at our Hanami-inspired games to cash in at our raffles."
+              "Join our community hosted panels, workshops, and Hanami-inspired activities to cash in at our raffles and prizes!"
             }
-            link={""}
+            link={"/coming-soon"}
             imgsrc={"/games.png"}
           />
         </div>

@@ -98,7 +98,7 @@ export function Footer() {
         </div>
         <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
           <div className="flex justify-between items-center">
-            <p>© 2024 UBC Anime Club. All rights reserved.</p>
+            <p>© 2025 UBC Anime Club. All rights reserved.</p>
           </div>
 
           <div>
