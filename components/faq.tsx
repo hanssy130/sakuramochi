@@ -644,7 +644,7 @@ export function Faq() {
                   You can purchase a UBCAni Membership at any of our weekly
                   events hosted on UBC campus, or at our club room by dropping
                   us a message at instagram.com/ubcani, pinging an exec on our
-                  Discord Server, or sending an email to info@ubcani.com.
+                  Discord Server, or sending an email to <a href="mailto:ubcani@gmail.com">ubcani@gmail.com</a>.
                 </p>
               </div>
             </div>
