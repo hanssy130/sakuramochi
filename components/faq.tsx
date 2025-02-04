@@ -7,7 +7,7 @@ export function Faq() {
         </h2>
         <p className="text-xl">
           Have more questions? Contact us at{" "}
-          <span className="text-pink"><a href="mailto:ubcani@gmail.com">ubcani@gmail.com</a></span>!
+          <span className="text-pink"><a href="mailto:hanami.ubcani@gmail.com">hanami.ubcani@gmail.com</a></span>!
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-10">
@@ -384,7 +384,7 @@ export function Faq() {
                   You can purchase a UBCAni Membership at any of our weekly
                   events hosted on UBC campus, or at our club room by dropping
                   us a message at <a href="http://instagram.com/ubcani">instagram.com/ubcani</a>, pinging an exec on our
-                  Discord Server, or sending an email to <a href="mailto:ubcani@gmail.com">ubcani@gmail.com</a>.
+                  Discord Server, or sending an email to <a href="mailto:hanami.ubcani@gmail.com">hanami.ubcani@gmail.com</a>.
                 </p>
               </div>
             </div>
@@ -536,7 +536,7 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
               >
                 <p className="">
-                For more information about the Sakura Cosplay Cafe, Artist & Vendor Alley, Stage Performances, and Activities & Raffles, please see the sections above. If you still cannot find the answer to your question, please email us at <a href="mailto:ubcani@gmail.com">ubcani@gmail.com</a>, message us at <a href="instagram.com/ubcani"> instagram.com/ubcani</a>, or ping an exec in our Discord Server!
+                For more information about the Sakura Cosplay Cafe, Artist & Vendor Alley, Stage Performances, and Activities & Raffles, please see the sections above. If you still cannot find the answer to your question, please email us at <a href="mailto:hanami.ubcani@gmail.com">hanami.ubcani@gmail.com</a>, message us at <a href="instagram.com/ubcani"> instagram.com/ubcani</a>, or ping an exec in our Discord Server!
                 </p>
               </div>
             </div>
@@ -644,7 +644,7 @@ export function Faq() {
                   You can purchase a UBCAni Membership at any of our weekly
                   events hosted on UBC campus, or at our club room by dropping
                   us a message at <a href="http://instagram.com/ubcani">instagram.com/ubcani</a>, pinging an exec on our
-                  Discord Server, or sending an email to <a href="mailto:ubcani@gmail.com">ubcani@gmail.com</a>.
+                  Discord Server, or sending an email to <a href="mailto:hanami.ubcani@gmail.com">hanami.ubcani@gmail.com</a>.
                 </p>
               </div>
             </div>
@@ -799,7 +799,7 @@ export function Faq() {
                   For more information about the Sakura Cosplay Cafe, Artist &
                   Vendor Alley, Stage Performances, and Games & Raffles, please
                   see the sections above. If you still cannot find the answer to
-                  your question, please email us at info@ubcani.com, message us
+                  your question, please email us at hanami.ubcani@gmail.com, message us
                   at instagram.com/ubcani, or ping an exec in our Discord
                   Server!
                 </p>
