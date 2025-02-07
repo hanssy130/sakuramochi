@@ -57,15 +57,13 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p className="mb-2">
-                  Details TBD! Keep an eye on our social media for the latest updates or join the UBC Anime Discord.
-                  {/* Pop-Up Hanami officially starts at 11:30am. The Artist &
-                  Vendor Alley will run until 7pm, and the Sakura Cosplay Cafe
-                  will run until we run out of food~
+                  
+                  Pop-Up Hanami officially starts at 11:00am. Our main event (including artist alley and cafe) runs until 6pm. Afterwards, everyone will be directed to the Norm Theatre to watch the Idol Showcase, starting at 7:00pm.
                 </p>
                 <p>
                   We recommend coming as early as possible to secure a seat at
                   the Sakura Cosplay Cafe and get the limited-run merch at the
-                  Artist & Vendor Alley! */}
+                  Artist & Vendor Alley!
                 </p>
               </div>
             </div>
@@ -332,8 +330,7 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p>
-                Pop-Up Hanami will be held across the 2nd floor of the AMS Nest. Please first pick up your registration pass on the 1st floor in front of Thirstyyy before heading to the main event!
-                </p>
+                Pop-Up Hanami will be held across the 2nd floor of the AMS Nest. Please first pick up your registration pass on the first floor registration tables (across from Thirstyyy) before heading up to the main event!</p>
               </div>
             </div>
 

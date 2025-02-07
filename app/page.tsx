@@ -41,7 +41,7 @@ export default function Home() {
             
             <div className="font-mono font-bold text-3xl md:text-4xl uppercase mb-5 text-nowrap">
               <p>Date March 29, 2025</p>
-              <p>Time TBD</p>
+              <p>11:00am - 8:30pm</p>
             </div>
             <p className="font-sans w-full lg:w-2/5 font-medium text-lg">
             A one-day, cherry-blossom-themed event at the University of British Columbia, featuring a cosplay cafe, an artist alley, stage performances, games & raffles, and more!
@@ -59,7 +59,7 @@ export default function Home() {
                 whileTap={{ scale: 0.95 }}
                 className="font-sans uppercase font-bold text-lg tracking-wider border-2 bg-white border-black py-4 px-10 inline-flex items-center gap-x-2 rounded-full"
               >
-                <a href="https://u.ubcani.com/hanami" target="_blank">
+                <a href=" https://popuphanami-tickets-2025.square.site/product/pop-up-hanami-2025-tickets/69?cs=true&cst=custom" target="_blank">
                   Buy Tickets NOW!
                 </a>
               </motion.button>
