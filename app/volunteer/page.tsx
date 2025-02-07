@@ -53,7 +53,7 @@ export default function Volunteer() {
             data-aos="fade-up"
             className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10"
           >
-            {/* <motion.div
+            <motion.div
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
               whileTap={{ scale: 0.95 }}
             >
@@ -63,10 +63,10 @@ export default function Volunteer() {
                   "Set up, Registration, Activity Booths, Stagehands, Security, and more!"
                 }
                 icon={<BackHandRounded />}
-                link={"https://forms.gle/W1UD16oDGavbqN3LA"}
+                link={"https://forms.gle/zoavAd33xqcubkrL6"}
               />
             </motion.div>
-            <motion.div
+            {/* <motion.div
               whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
               whileTap={{ scale: 0.95 }}
             >
@@ -114,7 +114,7 @@ export default function Volunteer() {
                 link={"https://forms.gle/ytXTNp3SqYjH8J8EA"}
               />
             </motion.div> */}
-            <b>Volunteer applications coming soon!</b>
+            {/* <b>Volunteer applications coming soon!</b> */}
           </div>
         </div>
       </div>
