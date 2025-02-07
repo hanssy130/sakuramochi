@@ -57,13 +57,12 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p className="mb-2">
-                  
-                  Pop-Up Hanami officially starts at 11:00am. Our main event (including artist alley and cafe) runs until 6pm. Afterwards, everyone will be directed to the Norm Theatre to watch the Idol Showcase, starting at 7:00pm.
+                Pop-Up Hanami officially starts at 11:00am. Our main event (including our Artist Alley and Cafe) runs until 6pm. 
+                Afterwards, everyone will be directed to the Norm Theatre to watch the Idol Showcase, starting at 7:00pm.
                 </p>
                 <p>
-                  We recommend coming as early as possible to secure a seat at
-                  the Sakura Cosplay Cafe and get the limited-run merch at the
-                  Artist & Vendor Alley!
+                We recommend coming as early as possible to get your favourite drink
+                 at our Cafe and get the limited-run merch at the Artist & Vendor Alley!
                 </p>
               </div>
             </div>
