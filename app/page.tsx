@@ -83,7 +83,7 @@ export default function Home() {
             description={
               "Cosplay waiters serve you sweet treats under the cherry blossoms!"
             }
-            // link={"/coming-soon"}
+            link={"/coming-soon"}
             imgsrc={"/cosplay cafe.png"}
           />
           <Card
@@ -99,7 +99,7 @@ export default function Home() {
             description={
               "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            // link={"/coming-soon"}
+            link={"/coming-soon"}
             imgsrc={"/stage performances.png"}
           />
           <Card
@@ -107,7 +107,7 @@ export default function Home() {
             description={
               "Join our community hosted panels, workshops, and Hanami-inspired activities to cash in at our raffles and prizes!"
             }
-            // link={"/coming-soon"}
+            link={"/coming-soon"}
             imgsrc={"/games.png"}
           />
         </div>
