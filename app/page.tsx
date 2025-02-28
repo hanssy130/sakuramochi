@@ -112,7 +112,7 @@ export default function Home() {
           />
         </div>
         <div data-aos="fade-up" className="mt-20">
-          {/* <Sponsors /> */}
+          <Sponsors />
           <Faq />
         </div>
       </div>

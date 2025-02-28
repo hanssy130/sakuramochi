@@ -22,7 +22,7 @@ export default function Liability() {
             This section outlines a release of liability for the UBC Anime Club
             and Pop-Up Hanami staff and volunteers from all liability relating
             to injuries and or lost or damaged property that may occur during
-            March 23rd, 2024 within the premises of Pop-Up Hanami. By entering
+            March 29, 2025 within the premises of Pop-Up Hanami. By entering
             Pop-Up Hanami, I agree to hold the UBC Anime Club and the Pop-Up
             Hanami staff and volunteers free from any liability, including
             financial responsibility for injuries incurred, and property lost or
