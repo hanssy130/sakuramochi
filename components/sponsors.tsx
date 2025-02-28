@@ -21,7 +21,7 @@ export function Sponsors() {
           {sponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="border-grey border-2 relative p-4 overflow-hidden ease-in-out rounded-t-xl"
+              className="border-grey border-2 relative p-4 overflow-hidden ease-in-out rounded-xl"
             >
               <a href={sponsor.link}><Image
                 src={sponsor.src}
