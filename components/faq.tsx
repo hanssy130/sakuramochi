@@ -329,8 +329,8 @@ export function Faq() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p>
-                Pop-Up Hanami will be held across the 2nd floor of the AMS Nest. Please first pick up your registration pass on the first floor registration tables (across from Thirstyyy) before heading up to the main event!</p>
-              </div>
+                Pop-Up Hanami will be held across the 2nd floor of the AMS Nest. Please first pick up your registration pass on the First Floor (the booths in front of Teadot) before heading to the main event!</p>
+                </div>
             </div>
 
             <div

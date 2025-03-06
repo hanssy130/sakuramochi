@@ -2,6 +2,7 @@
 import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Card from "@/components/card";
+import { Floorplan } from "@/components/floorplan";
 import { Sponsors } from "@/components/sponsors";
 import { Faq } from "@/components/faq";
 
@@ -112,6 +113,7 @@ export default function Home() {
           />
         </div>
         <div data-aos="fade-up" className="mt-20">
+          <Floorplan />
           <Sponsors />
           <Faq />
         </div>

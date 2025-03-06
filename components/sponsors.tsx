@@ -21,14 +21,14 @@ export function Sponsors() {
           {sponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="border-grey border-2 relative p-4 overflow-hidden ease-in-out rounded-xl"
+              className="border-grey border-2 relative overflow-hidden ease-in-out rounded-xl"
             >
               <a href={sponsor.link}><Image
                 src={sponsor.src}
                 alt={sponsor.alt}
                 width={150}
                 height={150}
-                className="w-32 h-32 md:w-80 md:h-80 object-contain"
+                className="w-32 h-32 md:w-80 md:h-80 object-cover"
               />
               </a>
             </div>
