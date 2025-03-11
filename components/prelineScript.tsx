@@ -17,11 +17,11 @@ export default function PrelineScript() {
     import("preline/preline");
   }, []);
 
-  useEffect(() => {
-    setTimeout(() => {
-      window.HSStaticMethods.autoInit();
-    }, 100);
-  }, [path]);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     window.HSStaticMethods.autoInit();
+  //   }, 100);
+  // }, [path]);
 
   return null;
 }
