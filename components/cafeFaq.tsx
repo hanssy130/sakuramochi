@@ -69,7 +69,7 @@ export function CafeFaq() {
               className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-black rounded-lg transition hover:text-green"
               aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
             >
-              Can I reserve a seat at the Sakura Cosplay Cafe?
+              How can I attend the Sakura Cosplay Cafe?
               <svg
                 className="hs-accordion-active:hidden block flex-shrink-0 size-5 text-black group-hover:text-green"
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,9 +105,7 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
             >
               <p className="text-black ">
-                No. All seats are first come first serve at the Sakura Cosplay
-                Cafe. We recommend arriving early to secure your cosplay dining
-                experience at our cafe!
+              Purchase a ticket to Pop-Up Hanami, and show up to our Cafe anytime during the event! 
               </p>
             </div>
           </div>
@@ -203,10 +201,7 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
             >
               <p className="text-black ">
-                The Sakura Cosplay Cafe will open at 12:30pm and be open until
-                we run out of food (or the event ends!). Food and drink is
-                limited, so we recommend coming as early as possible to secure
-                your favourite treat at the Sakura Cosplay Cafe!
+              The Sakura Cosplay Cafe will open at 11:00am and be open until we run out of ingredients (or the event ends!). Drinks are limited, so we recommend coming as early as possible to secure your favourite beverage at the Sakura Cosplay Cafe!
               </p>
             </div>
           </div>
@@ -255,9 +250,7 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
             >
               <p className="text-black ">
-                Our tables seat a maximum of 6, and a minimum of 2. If you want
-                to come eat solo, please understand that you might get seated
-                with other solos as seating space is limited in the cafe.
+              There is no assigned seating at the Sakura Cosplay Cafe, so feel free to eat with as many/as few people as possible!
               </p>
             </div>
           </div>
@@ -306,8 +299,7 @@ export function CafeFaq() {
               aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
             >
               <p className="text-black ">
-                Yes! Feel free to take home the menus, as well as our
-                custom-made coasters as a souvenir!
+              You are welcome to take one home as long as supplies last!
               </p>
             </div>
           </div>

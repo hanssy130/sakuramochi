@@ -24,9 +24,7 @@ export default function Cafe() {
         </div>
         <div data-aos="fade-up" className="lg:w-2/3">
           <p className="font-sans font-medium text-lg">
-            Come sit under the cherry blossoms at our Sakura Cosplay Cafe, and
-            be pampered by waiters in your favourite cosplays! Maybe they’ll
-            even cast a love spell on your food~
+          Step into a world of pastel dreams at this year's Sakura Cosplay Cafe, where the magic of the early 2000s Shoujo comes to life! Sip on a Sailor Moonblast served by waiters in your favorite Shoujo-inspired outfits, and who knows? A little spark of romance might just find its way into your cup~
           </p>
         </div>
         <div data-aos="fade-up" className="lg:w-2/3 my-24">
