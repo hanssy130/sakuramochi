@@ -19,9 +19,14 @@ export default function PrelineScript() {
 
   useEffect(() => {
     setTimeout(() => {
-      window.HSStaticMethods.autoInit();
+        if (window.HSStaticMethods) {
+            window.HSStaticMethods.autoInit();
+        } else {
+            console.error('HSStaticMethods is not available');
+        }
     }, 100);
-  }, [path]);
+}, [path]);
+
 
   return null;
 }
