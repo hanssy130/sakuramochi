@@ -27,10 +27,9 @@ export default function Cafe() {
           {`Step into a world of pastel dreams at this year's Sakura Cosplay Cafe, where the magic of the early 2000s Shoujo comes to life! Sip on a Sailor Moonblast served by waiters in your favorite Shoujo-inspired outfits, and who knows? A little spark of romance might just find its way into your cup~`}
           </p>
         </div>
-
         <motion.img
           src="/menu.png"
-          className="md:block float rounded-xl z-0"
+          className="md:block float rounded-xl z-0 p-10"
           initial={{ y: 500, rotateZ: 50 }}
           animate={{ y: 0, rotateZ: 0 }}
           transition={{
@@ -40,7 +39,6 @@ export default function Cafe() {
             ease: "easeInOut",
           }}
         ></motion.img>
-
         <div data-aos="fade-up" className="lg:w-2/3 my-24">
           <CafeFaq />
         </div>
