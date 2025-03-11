@@ -84,7 +84,7 @@ export default function Home() {
             description={
               "Cosplay waiters serve you sweet treats under the cherry blossoms!"
             }
-            link={"/coming-soon"}
+            link={"/cafe"}
             imgsrc={"/cosplay cafe.png"}
           />
           <Card

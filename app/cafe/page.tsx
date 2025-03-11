@@ -12,7 +12,7 @@ export default function Cafe() {
         >
           <div className="flex flex-col z-40 items-center md:items-start gap-2 p-0">
             <p className="font-sans uppercase text-2xl font-bold text-pink tracking-wider">
-              Pop-Up Hanami 2024
+              Pop-Up Hanami 2025
             </p>
             <p className="hidden sm:block font-display-en uppercase text-black text-9xl">
               Cosplay Cafe
@@ -32,9 +32,9 @@ export default function Cafe() {
         <div data-aos="fade-up" className="lg:w-2/3 my-24">
           <CafeFaq />
         </div>
-        {/* <motion.img
-          src="/menu.jpeg"
-          className="hidden md:block float rounded-xl z-0 w-1/2"
+        <motion.img
+          src="/menu.png"
+          className="md:block float rounded-xl z-0"
           initial={{ y: 500, rotateZ: 50 }}
           animate={{ y: 0, rotateZ: 0 }}
           transition={{
@@ -43,7 +43,7 @@ export default function Cafe() {
             type: "spring",
             ease: "easeInOut",
           }}
-        ></motion.img> */}
+        ></motion.img>
       </div>
     </main>
   );
