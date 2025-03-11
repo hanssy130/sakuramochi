@@ -23,9 +23,14 @@ export default function Volunteer() {
             </p>
           </div>
         </div>
+        <div 
+        data-aos="fade-up"
+        className="flex flex-col z-40 items-center md:items-start gap-2 p-4 w-3/4">
+          <img src="Artist_Alley_Floorplan.png"></img>          </div>
+          
         <div
         data-aos="fade-up"
-        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6 w-full max-w-6xl"
+        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 p-4 gap-6 w-full max-w-6xl"
       >
           <img
             className=""
