@@ -104,11 +104,11 @@ export default function Home() {
             imgsrc={"/stage performances.png"}
           />
           <Card
-            title={"Games & Raffles"}
+            title={"Schedule & Activities"}
             description={
               "Join our community hosted panels, workshops, and Hanami-inspired activities to cash in at our raffles and prizes!"
             }
-            link={"/coming-soon"}
+            link={"/schedule"}
             imgsrc={"/games.png"}
           />
         </div>
