@@ -100,7 +100,7 @@ export default function Home() {
             description={
               "Dance performances, idol groups, non-stop J-Pop, J-Rock, and anime OPs for the whole day."
             }
-            link={"/coming-soon"}
+            link={"/stage"}
             imgsrc={"/stage performances.png"}
           />
           <Card
