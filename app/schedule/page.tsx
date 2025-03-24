@@ -10,7 +10,7 @@ export default function Schedule() {
           <p data-aos="fade-up" className="font-sans font-medium text-lg">
           {`Evening events:`}<br/>
           {`- `}<b>{`Idol Showcase`}</b>{` - Norm Theatre - START: 7:00 PM`}<br/>
-          {`- `}<b>{`Animirai After Party`}</b>{` - Abdl Ladgha Building - START: 8:30 PM (19+ only)`}
+          {`- `}<b>{`Animirai After Party`}</b>{` - Abdul Ladha Building - START: 8:30 PM (19+ only)`}
           </p>
       <div data-aos="fade-up" className="w-full bg-gray-100 p-6 flex flex-col items-center">
         <div className="flex flex-col gap-4 w-full lg:w-2/3 px-2 md:px-4">
